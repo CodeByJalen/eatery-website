@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <a class="section__pic-container">
+        <img src="./assets/SolDelish.png" alt="Sol'Delish logo"
+        width=180px
+        height=auto/>
+    </a>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/our-story.html">Our Story</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/careers-section.html">Careers</a></li>
+        </ul>
+        <ul id="socials-container">
+            <img src="assets/Instagram.png" alt="Instagram" class="icon" onclick="window.open('https://www.instagram.com/soldelishclt_restaurant/', '_blank')">
+            <img src="assets/Facebook.svg" alt="Facebook" class="icon" onclick="window.open('https://www.facebook.com/SolDelishCLTRestaurant/', '_blank')">
+            <img src="assets/Yelp.png" alt="Yelp" class="icon" onclick="window.open('https://www.yelp.com/biz/soldelish-charlotte', '_blank')">
+        </ul>
+        <!-- Rounded button with black outline -->
+        <div class="call-to-order-button">
+            <a href="tel:+19802019016">Call in to order</a>
+        </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="section__pic-container">
+        <img src="./assets/SolDelish.png" alt="Sol'Delish logo"
+        width=125px
+        height=auto/>
+    </div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="Home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="Story" onclick="toggleMenu()">Story</a></li>
+            <li><a href="Menu" onclick="toggleMenu()">Menu</a></li>
+            <li><a href="Careers" onclick="toggleMenu()">Careers</a></li>
+        </div>
+    </div>
+</nav>
+  
+</body>
+</html>
