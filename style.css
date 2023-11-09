@@ -22,32 +22,34 @@ p {
 }
 
 /* TRANSITION */
-
 a,
 .btn {
   transition: all 300ms ease;
 }
 
 /* DESKTOOP NAV */
-
 nav,
 .nav-links {
   display: flex;
+  padding: 2% 6%;
 }
+
 .nav-icon-links {
   display: inline-flexbox;
 }
 
 nav {
-  justify-content: space-around;
+  justify-content:space-around;
   align-items: center;
   height: 17vh;
+
 }
 
 .nav-links {
   gap: 2rem;
   list-style:none;
   font-size: 1.5rem;
+
 }
 
 a {
@@ -72,6 +74,28 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+
+.call-to-order-button {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the margin as needed */
+  padding: 10px 20px;
+  border: 4px solid black;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.call-to-order-button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.call-to-order-button:hover {
+  transform: scale(1.1);
+}
+
 
 #hamburger-nav {
   display: none;
