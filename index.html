@@ -9,22 +9,27 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="section__pic-container">
+        <a class="section__pic-container">
             <img src="./assets/SolDelish.png" alt="Sol'Delish logo"
-            width=150px
+            width=180px
             height=auto/>
-        </div>
+        </a>
             <ul class="nav-links">
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="Story">Story</a></li>
-                <li><a href="Menu">Menu</a></li>
-                <li><a href="Careers">Careers</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#careers-section">Careers</a></li>
             </ul>
             <ul id="socials-container">
                 <img src="assets/Instagram.png" alt="Instagram" class="icon" onclick="window.open('https://www.instagram.com/soldelishclt_restaurant/', '_blank')">
                 <img src="assets/Facebook.svg" alt="Facebook" class="icon" onclick="window.open('https://www.facebook.com/SolDelishCLTRestaurant/', '_blank')">
                 <img src="assets/Yelp.png" alt="Yelp" class="icon" onclick="window.open('https://www.yelp.com/biz/soldelish-charlotte', '_blank')">
             </ul>
+            <!-- Rounded button with black outline -->
+            <div class="call-to-order-button">
+                <a href="tel:+19802019016">Call in to order</a>
+            </div>
+            
     </nav>
     <nav id="hamburger-nav">
         <div class="section__pic-container">
@@ -53,6 +58,24 @@
             <h1 class="title">GREAT FOOD & DRINKS</h1>
         </div>
     </section>
-    <script src="script.js"></script>   
+    <section id="our-story">
+        <div class="section__text">
+            <p class="section__text__p1"> OUR STORY</p>
+            <h1 class="title">CHARLOTTE'S NEWEST RESTAURANT</h1>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="section__text">
+            <p class="section__text__p1"> MENU</p>
+            <h1 class="title">GREAT FOOD & DRINKS</h1>
+        </div>
+    </section>
+    <section id="careers-section">
+        <div class="section__text">
+            <p class="section__text__p1"> CAREERS</p>
+            <h1 class="title">GREAT FOOD & DRINKS</h1>
+        </div>
+    </section>
+        <script src="script.js"></script>   
 </body>
 </html>
