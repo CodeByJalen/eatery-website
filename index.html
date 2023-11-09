@@ -9,7 +9,10 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Sol'Delish</div>
+        <div class="section__pic-container">
+            <img src="./assets/SolDelish.png" alt="Sol'Delish logo"
+            width=150px
+            height=auto/>
         </div>
             <ul class="nav-links">
                 <li><a href="/index.html">Home</a></li>
@@ -17,9 +20,21 @@
                 <li><a href="Menu">Menu</a></li>
                 <li><a href="Careers">Careers</a></li>
             </ul>
+            <ul id="socials-container">
+                <img src="assets/Instagram.png" alt="Instagram"
+                class="icon" onclick="location.href='https://www.instagram.com/soldelishclt_restaurant/' ">
+                <img src="assets/Facebook.svg" alt="Facebook"
+                class="icon" onclick="location.href='https://www.facebook.com/SolDelishCLTRestaurant/'">
+                <img src="assets/Yelp.png" alt="Yelp"
+                class="icon" onclick="location.href='https://www.yelp.com/biz/soldelish-charlotte'">
+            </ul>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Sol'Delish</div>
+        <div class="section__pic-container">
+            <img src="./assets/SolDelish.png" alt="Sol'Delish logo"
+            width=125px
+            height=auto/>
+        </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -32,26 +47,21 @@
                 <li><a href="Menu" onclick="toggleMenu()">Menu</a></li>
                 <li><a href="Careers" onclick="toggleMenu()">Careers</a></li>
             </div>
+            <div id="socials-container">
+                <img src="assets/Instagram.png" alt="Instagram"
+                class="icon" onclick="location.href='https://www.instagram.com/soldelishclt_restaurant/' ">
+                <img src="assets/Facebook.svg" alt="Facebook"
+                class="icon" onclick="location.href='https://www.facebook.com/SolDelishCLTRestaurant/'">
+                <img src="assets/Yelp.png" alt="Yelp"
+                class="icon" onclick="location.href='https://www.yelp.com/biz/soldelish-charlotte'">
+            </div>
         </div>
 
     </nav>
     <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/SolDelish.png" alt="Sol'Delish logo"
-            width=255px
-            height=auto/>
-        </div>
         <div class="section__text">
             <p class="section__text__p1"> CHARLOTTE'S NEWEST RESTAURANT</p>
             <h1 class="title">GREAT FOOD & DRINKS</h1>
-        </div>
-        <div id="socials-container">
-            <img src="assets/Instagram.png" alt="Instagram"
-            class="icon" onclick="location.href='https://www.instagram.com/soldelishclt_restaurant/'">
-            <img src="assets/Facebook.svg" alt="Facebook"
-            class="icon" onclick="location.href='https://www.facebook.com/SolDelishCLTRestaurant/'">>
-            <img src="assets/Yelp.png" alt="Yelp"
-            class="icon" onclick="location.href='https://www.yelp.com/biz/soldelish-charlotte'">>
         </div>
     </section>
     <script src="script.js"></script>   
